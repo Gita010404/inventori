@@ -42,7 +42,7 @@
         $no_hp = $_POST['no_hp'];
 
         // include database connection file
-        include_once("config.php");
+        include_once("config_teknisi.php");
 
         // Insert user data into table
         $result = mysqli_query($mysqli, "INSERT INTO teknisi(nama_teknisi,tanggal_lahir,gender,no_hp) VALUES('$nama_teknisi','$tanggal_lahir','$gender','$no_hp')");
