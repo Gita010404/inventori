@@ -5,10 +5,10 @@
 </style>
 <?php
 
-include_once("config.php");
+include_once("config_teknisi.php");
 
 
-$result = mysqli_query($mysqli, "SELECT * FROM alat ORDER BY id DESC");
+$result = mysqli_query($mysqli, "SELECT * FROM teknisi ORDER BY id DESC");
 ?>
 
 <html>
@@ -34,7 +34,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM alat ORDER BY id DESC");
         echo "<td>".$user_data['tanggal_lahir']."</td>";
         echo "<td>".$user_data['gender']."</td>";    
         echo "<td>".$user_data['no_hp']."</td>";    
-        echo "<td><a href='edit.php?id=$user_data[id]'>Edit</a> | <a href='delete.php?id=$user_data[id]'>Delete</a></td></tr>"; 
+        echo "<td><a href='edit_teknisi.php?id=$user_data[id]'>Edit</a> | <a href='delete_teknisi.php?id=$user_data[id]'>Delete</a></td></tr>"; 
         $i++;       
     }
     ?>

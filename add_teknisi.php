@@ -4,10 +4,10 @@
 </head>
 
 <body>
-    <a href="index.php">Go to Home</a>
+    <a href="index_teknisi.php">Go to Home</a>
     <br/><br/>
 <p>Belajar Pemrograman Web</p>
-    <form action="add.php" method="post" name="form1">
+    <form action="add_teknisi.php" method="post" name="form1">
         <table width="25%" border="0">
             <tr> 
                 <td>Nama teknisi</td>
