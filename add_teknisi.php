@@ -48,7 +48,7 @@
         $result = mysqli_query($mysqli, "INSERT INTO teknisi(nama_teknisi,tanggal_lahir,gender,no_hp) VALUES('$nama_teknisi','$tanggal_lahir','$gender','$no_hp')");
 
         // Show message when user added
-        echo "User added successfully. <a href='index.php'>View teknisi</a>";
+        echo "User added successfully. <a href='index_teknisi.php'>View teknisi</a>";
     }
     ?>
 </body>
